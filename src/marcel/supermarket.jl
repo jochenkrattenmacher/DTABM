@@ -13,7 +13,6 @@
 
 include("structureModule.jl")
 include("jumpSolver.jl")
-using Graphs, MetaGraphs
 
 struct Trade
     shop::Int

@@ -13,9 +13,9 @@ const shopCount = 2
 const cashPrice = 1
 
 # include marcel
-include("marcel/structureModule.jl")
-include("marcel/jumpSolver.jl")
-include("marcel/analysisModule.jl")
+# include("marcel/structureModule.jl")
+# include("marcel/jumpSolver.jl")
+# include("marcel/analysisModule.jl")
 include("marcel/supermarket.jl")
 
 

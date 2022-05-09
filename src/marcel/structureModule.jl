@@ -25,22 +25,9 @@ struct Relation
     directed::Bool
 end
 
-struct NetworkAgent <:AbstractAgent
-    relations::Array{Ref{Relation}}
-    function NetworkAgent()
-        new([])        
-    end
-end
-
 macro agentM(pName, pFields)
     return createStruct(pName, pFields, AbstractAgent)
 end
-
-macro networkAgent(pName, pFields)
-    myAgent = createStruct(pName, pFields, :NetworkAgent, AbstractAgent)
-    return myAgent
-end
-
 # basic Observer Type
 
 abstract type AbstractObservable end
