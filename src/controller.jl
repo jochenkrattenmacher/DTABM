@@ -8,7 +8,7 @@
 # include("marcel/structureModule.jl")
 # include("marcel/jumpSolver.jl")
 # include("marcel/analysisModule.jl")
-include("jmarket.jl")
+include("prisoners.jl")
 
 
 model = initialize_model()
